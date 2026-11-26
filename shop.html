@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
   <script>document.documentElement.classList.add('js')</script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Shop &mdash; Folio &amp; Fern Booksellers</title>
-  <meta name="description" content="Browse the Folio &amp; Fern catalogue: filter by genre, format, price and stock, then order for delivery or free collection from Wren Street.">
+  <title>Tìm sách — Thư viện trường</title>
+  <meta name="description" content="Xem tài liệu the Thư viện trường catalogue: filter tác giả genre, format, price and stock, then order for delivery or free collection from Wren Street.">
   <meta name="theme-color" content="#f5eee1">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Crect width='44' height='44' rx='12' fill='%237b1e2c'/%3E%3Cpath d='M8 26.5c4.6-2 9.3-1.8 14 .8 4.7-2.6 9.4-2.8 14-.8v7c-4.6-2-9.3-1.8-14 .8-4.7-2.6-9.4-2.8-14-.8Z M22 26.6c-.2-6.2 1-11.6 4-16.4' fill='none' stroke='%23f5eee1' stroke-width='2'/%3E%3C/svg%3E">
 
@@ -17,20 +17,20 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to main content</a>
+  <a class="skip-link" href="#main">Chuyển đến nội dung chính</a>
 
   <!-- ============================ ANNOUNCEMENT ============================ -->
-  <aside class="announce" aria-label="Shop news">
+  <aside class="announce" aria-label="Thông báo thư viện">
     <div class="container">
-      <p>Free delivery on orders over $35<span class="sep" aria-hidden="true">&#10086;</span><a href="index.html#events">Meet Ada Merriweather on Thursday 1 October</a></p>
+      <p>Thông tin mới từ thư viện<span class="sep" aria-hidden="true">&#10086;</span><a href="index.html#events">Chào mừng bạn đến với thư viện trường</a></p>
     </div>
   </aside>
 
   <!-- ============================ HEADER ============================ -->
   <header class="site-header" data-header>
-    <nav class="navbar navbar-expand-lg" aria-label="Main">
+    <nav class="navbar navbar-expand-lg" aria-label="Điều hướng chính">
       <div class="container">
-        <a class="brand" href="index.html" aria-label="Folio &amp; Fern Booksellers, home">
+        <a class="brand" href="index.html" aria-label="Thư viện trường, home">
           <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true">
             <rect width="44" height="44" rx="12" fill="#7b1e2c"/>
             <g fill="none" stroke="#f5eee1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
@@ -47,13 +47,13 @@
             </g>
           </svg>
           <span>
-            <span class="brand-name">Folio <em>&amp;</em> Fern</span>
-            <span class="brand-sub">Booksellers</span>
+            <span class="brand-name">Thư viện trường</span>
+            <span class="brand-sub">Thư viện</span>
           </span>
         </a>
 
         <div class="header-actions order-lg-last">
-          <button class="cart-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#cart" aria-controls="cart" aria-label="Open basket, 0 items" data-cart-button>
+          <button class="cart-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#cart" aria-controls="cart" aria-label="Mở danh sách sách muốn mượn" data-cart-button>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
             <span class="cart-count is-empty" data-cart-count aria-hidden="true">0</span>
           </button>
@@ -66,15 +66,15 @@
 
         <div class="collapse navbar-collapse" id="main-nav">
           <ul class="navbar-nav mx-lg-auto">
-            <li class="nav-item"><a class="nav-link" href="shop.html" aria-current="page">Shop</a></li>
-            <li class="nav-item"><a class="nav-link" href="index.html#new">New releases</a></li>
-            <li class="nav-item"><a class="nav-link" href="index.html#events">Events</a></li>
-            <li class="nav-item"><a class="nav-link" href="index.html#book-club">Book club</a></li>
-            <li class="nav-item"><a class="nav-link" href="index.html#visit">Visit</a></li>
+            <li class="nav-item"><a class="nav-link" href="shop.html" aria-current="page">Tìm sách</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#new">Sách mới nhập</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#events">Tin tức & Sự kiện</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#book-club">Câu lạc bộ đọc sách</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#visit">Giới thiệu</a></li>
           </ul>
           <form class="nav-search" action="shop.html" method="get" role="search">
-            <label class="visually-hidden" for="nav-q">Search books</label>
-            <input id="nav-q" name="q" type="search" placeholder="Title or author" autocomplete="off">
+            <label class="visually-hidden" for="nav-q">Tìm sách</label>
+            <input id="nav-q" name="q" type="search" placeholder="Tên sách hoặc tác giả" autocomplete="off">
             <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
           </form>
         </div>
@@ -83,16 +83,16 @@
   </header>
 
   <main id="main">
-    <section class="page-head" aria-labelledby="shop-title">
+    <section class="page-head" aria-labelledtác giả="shop-title">
       <div class="container">
         <nav aria-label="Breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Shop</li>
+            <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Tìm sách</li>
           </ol>
         </nav>
-        <h1 id="shop-title">Browse the shelves</h1>
-        <p>Every book here is on our shelves at Wren Street or two days away. Order for delivery, or collect from the shop for free.</p>
+        <h1 id="shop-title">Tra cứu tài liệu</h1>
+        <p>Tra cứu danh mục tài liệu thư viện. Xem thông tin và tình trạng tài liệu trước khi gửi yêu cầu mượn.</p>
         <div class="page-head-books" aria-hidden="true">
           <div data-cover="moths-of-the-copper-moon" class="cover cover--tile " data-f="serif" style="--bg:#b8741a;--fg:#2a1d14;--ac:#8f5512;--ts:10.00cqi;--a2:#f4ead5;" aria-hidden="true"><span class="cover-art"></span><span class="cover-text"><span class="cover-kicker">A Novel</span><span class="cover-title"><span>Moths</span> <span>of</span> <span>the</span> <span>Copper</span> <span>Moon</span></span><span class="cover-author">Priya Ellingsworth</span></span></div>
           <div data-cover="the-printers-apprentice" class="cover cover--label " data-f="serif" style="--bg:#7b1e2c;--fg:#3a1017;--ac:#efe3c8;--ts:8.06cqi;" aria-hidden="true"><span class="cover-art"></span><span class="cover-text"><span class="cover-kicker">A History</span><span class="cover-title"><span>The</span> <span>Printer’s</span> <span>Apprentice</span></span><span class="cover-author">Beatrix Hollin</span></span></div>
@@ -104,61 +104,61 @@
     <div class="container shop-layout">
       <div class="row gx-xl-5 gy-4">
         <div class="col-lg-3">
-          <div class="offcanvas-lg offcanvas-start" tabindex="-1" id="filters" aria-labelledby="filters-title">
+          <div class="offcanvas-lg offcanvas-start" tabindex="-1" id="filters" aria-labelledtác giả="filters-title">
             <div class="offcanvas-header">
-              <h2 class="offcanvas-title h4 d-lg-none" id="filters-title">Filter books</h2>
+              <h2 class="offcanvas-title h4 d-lg-none" id="filters-title">Lọc tài liệu</h2>
               <button type="button" class="btn-close d-lg-none" data-bs-dismiss="offcanvas" data-bs-target="#filters" aria-label="Close filters"></button>
             </div>
             <div class="offcanvas-body d-block">
-              <form class="filters-panel" data-filters aria-label="Filter books">
+              <form class="filters-panel" data-filters aria-label="Lọc tài liệu">
                 <fieldset class="filter-group">
-                  <legend>Genre</legend>
-                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="genre" value="fiction"> Literary Fiction <span class="count" data-genre-count="fiction">5</span></label>
-                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="genre" value="crime"> Crime &amp; Mystery <span class="count" data-genre-count="crime">5</span></label>
-                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="genre" value="sff"> Sci-Fi &amp; Fantasy <span class="count" data-genre-count="sff">4</span></label>
-                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="genre" value="history"> History &amp; Biography <span class="count" data-genre-count="history">3</span></label>
-                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="genre" value="poetry"> Poetry <span class="count" data-genre-count="poetry">3</span></label>
-                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="genre" value="nature"> Nature &amp; Travel <span class="count" data-genre-count="nature">3</span></label>
-                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="genre" value="food"> Food &amp; Drink <span class="count" data-genre-count="food">3</span></label>
-                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="genre" value="kids"> Children’s <span class="count" data-genre-count="kids">4</span></label>
+                  <legend>Thể loại</legend>
+                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="genre" value="fiction"> Văn học <span class="count" data-genre-count="fiction">5</span></label>
+                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="genre" value="crime"> Trinh thám <span class="count" data-genre-count="crime">5</span></label>
+                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="genre" value="sff"> Khoa học – Viễn tưởng <span class="count" data-genre-count="sff">4</span></label>
+                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="genre" value="history"> Lịch sử <span class="count" data-genre-count="history">3</span></label>
+                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="genre" value="poetry"> Thơ <span class="count" data-genre-count="poetry">3</span></label>
+                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="genre" value="nature"> Tự nhiên <span class="count" data-genre-count="nature">3</span></label>
+                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="genre" value="food"> Ẩm thực <span class="count" data-genre-count="food">3</span></label>
+                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="genre" value="kids"> Thiếu nhi <span class="count" data-genre-count="kids">4</span></label>
                 </fieldset>
                 <fieldset class="filter-group">
-                  <legend>Format</legend>
-                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="format" value="hb"> Hardback <span class="count" data-format-count="hb">24</span></label>
-                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="format" value="pb"> Paperback <span class="count" data-format-count="pb">27</span></label>
-                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="format" value="eb"> Ebook <span class="count" data-format-count="eb">26</span></label>
+                  <legend>Định dạng</legend>
+                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="format" value="hb"> Bìa cứng <span class="count" data-format-count="hb">24</span></label>
+                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="format" value="pb"> Bìa mềm <span class="count" data-format-count="pb">27</span></label>
+                  <label class="filter-option"><input class="form-check-input" type="checkbox" name="format" value="eb"> Tài liệu số <span class="count" data-format-count="eb">26</span></label>
                 </fieldset>
                 <fieldset class="filter-group">
-                  <legend>Price</legend>
+                  <legend>Giá</legend>
                   <output class="price-output" data-price-output for="price-min price-max">$5 &ndash; $32</output>
                   <div class="range" data-range>
-                    <label class="visually-hidden" for="price-min">Minimum price</label>
+                    <label class="visually-hidden" for="price-min">Giá tối thiểu</label>
                     <input type="range" id="price-min" name="min" min="5" max="32" value="5" data-price-min>
-                    <label class="visually-hidden" for="price-max">Maximum price</label>
+                    <label class="visually-hidden" for="price-max">Giá tối đa</label>
                     <input type="range" id="price-max" name="max" min="5" max="32" value="32" data-price-max>
                   </div>
                   <div class="range-scale" aria-hidden="true"><span>$5</span><span>$32</span></div>
                 </fieldset>
                 <fieldset class="filter-group">
-                  <legend>Availability</legend>
+                  <legend>Tình trạng</legend>
                   <div class="form-check form-switch filter-switch p-0">
-                    <label class="form-check-label" for="f-stock">In stock at Wren Street</label>
+                    <label class="form-check-label" for="f-stock">Còn sách</label>
                     <input class="form-check-input" type="checkbox" role="switch" id="f-stock" name="stock">
                   </div>
                   <div class="form-check form-switch filter-switch p-0">
-                    <label class="form-check-label" for="f-picks">Staff picks only</label>
+                    <label class="form-check-label" for="f-picks">Thủ thư giới thiệu</label>
                     <input class="form-check-input" type="checkbox" role="switch" id="f-picks" name="picks">
                   </div>
                 </fieldset>
-                <button type="button" class="btn btn-outline-ink btn-sm w-100 mt-4" data-clear-filters>Clear all filters</button>
+                <button type="button" class="btn btn-outline-ink btn-sm w-100 mt-4" data-clear-filters>Xóa bộ lọc</button>
                 <div class="filters-done d-lg-none">
-                  <button type="button" class="btn btn-primary w-100" data-bs-dismiss="offcanvas" data-bs-target="#filters" data-show-results>Show 30 books</button>
+                  <button type="button" class="btn btn-primary w-100" data-bs-dismiss="offcanvas" data-bs-target="#filters" data-show-results>Hiển thị 30 tài liệu</button>
                 </div>
               </form>
-              <aside class="shop-help" aria-labelledby="help-title">
-                <h2 id="help-title">Can&rsquo;t find it?</h2>
-                <p>We can order almost any book in print, usually within 48 hours, for collection or delivery.</p>
-                <a class="link-arrow" href="tel:+15550142270">Call (555) 014-2270 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              <aside class="shop-help" aria-labelledtác giả="help-title">
+                <h2 id="help-title">Không tìm thấy tài liệu?</h2>
+                <p>Liên hệ thủ thư để được hỗ trợ tìm tài liệu phù hợp.</p>
+                <a class="link-arrow" href="tel:+15550142270">Liên hệ thủ thư <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
               </aside>
             </div>
           </div>
@@ -167,26 +167,26 @@
         <div class="col-lg-9">
           <div class="shop-toolbar">
             <form class="shop-search" role="search" action="shop.html" method="get">
-              <label class="visually-hidden" for="shop-search">Search by title, author or genre</label>
+              <label class="visually-hidden" for="shop-search">Tìm theo tên sách, tác giả hoặc thể loại</label>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-              <input class="form-control" type="search" id="shop-search" name="q" placeholder="Search by title, author or genre" autocomplete="off" data-shop-search>
+              <input class="form-control" type="search" id="shop-search" name="q" placeholder="Tìm theo tên sách, tác giả hoặc thể loại" autocomplete="off" data-shop-search>
             </form>
-            <button class="btn btn-outline-ink d-lg-none filter-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#filters" aria-controls="filters"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg> Filters <span class="badge-count" data-filter-badge hidden>0</span></button>
+            <button class="btn btn-outline-ink d-lg-none filter-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#filters" aria-controls="filters"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg> Bộ lọc <span class="badge-count" data-filter-badge hidden>0</span></button>
             <div class="shop-sort">
-              <label for="sort">Sort by</label>
+              <label for="sort">Sắp xếp</label>
               <select class="form-select" id="sort" data-shop-sort>
-                <option value="featured">Featured</option>
-                <option value="newest">Newest first</option>
-                <option value="price-asc">Price, low to high</option>
-                <option value="price-desc">Price, high to low</option>
-                <option value="title">Title, A to Z</option>
-                <option value="rating">Highest rated</option>
+                <option value="featured">Nổi bật</option>
+                <option value="newest">Mới nhập</option>
+                <option value="price-asc">Giá, low to high</option>
+                <option value="price-desc">Giá, high to low</option>
+                <option value="title">Tên sách A–Z</option>
+                <option value="rating">Đánh giá cao</option>
               </select>
             </div>
           </div>
 
           <div class="result-bar">
-            <p class="result-count" data-result-count aria-live="polite" tabindex="-1">Showing 30 books</p>
+            <p class="result-count" data-result-count aria-live="polite" tabindex="-1">Danh mục tài liệu</p>
             <div class="chips" data-chips hidden></div>
           </div>
 
@@ -198,11 +198,11 @@
               <rect x="10" y="102" width="120" height="6" rx="2" fill="#6b4a33"/>
               <circle cx="100" cy="46" r="18" fill="#fffdf6" stroke="#1f1a17" stroke-width="4"/><path d="m113 59 14 14" stroke="#1f1a17" stroke-width="6" stroke-linecap="round"/>
             </svg>
-            <h2>No books match those filters</h2>
-            <p>Try fewer filters, or ask us to order it in. Most books arrive within 48 hours.</p>
-            <button type="button" class="btn btn-primary" data-clear-filters>Clear all filters</button>
+            <h2>Không tìm thấy tài liệu phù hợp</h2>
+            <p>Thử thay đổi bộ lọc hoặc liên hệ thủ thư để được hỗ trợ.</p>
+            <button type="button" class="btn btn-primary" data-clear-filters>Xóa bộ lọc</button>
           </div>
-          <noscript><p class="shop-empty">The catalogue needs JavaScript to show and filter books. Call (555) 014-2270 and we will check the shelves for you.</p></noscript>
+          <noscript><p class="shop-empty">The catalogue needs JavaScript to show and filter books. Liên hệ thủ thư and we will check the shelves for you.</p></noscript>
         </div>
       </div>
     </div>
@@ -217,7 +217,7 @@
       <div class="container">
         <div class="footer-grid">
           <div>
-            <a class="brand" href="index.html" aria-label="Folio &amp; Fern Booksellers, home">
+            <a class="brand" href="index.html" aria-label="Thư viện trường, home">
               <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true">
             <rect width="44" height="44" rx="12" fill="#7b1e2c"/>
             <g fill="none" stroke="#f5eee1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
@@ -234,53 +234,53 @@
             </g>
           </svg>
               <span>
-                <span class="brand-name">Folio <em>&amp;</em> Fern</span>
-                <span class="brand-sub">Booksellers</span>
+                <span class="brand-name">Thư viện trường</span>
+                <span class="brand-sub">Thư viện</span>
               </span>
             </a>
-            <p class="footer-about">An independent bookshop on Wren Street since 1987. Three floors, eleven thousand books, six booksellers and one very old armchair.</p>
+            <p class="footer-about">Thư viện trường phục vụ học tập, giảng dạy, nghiên cứu và đọc mở rộng.</p>
           </div>
           <div class="footer-col">
-            <h2>Shop</h2>
+            <h2>Tìm sách</h2>
             <ul class="footer-links">
-              <li><a href="shop.html">All books</a></li>
-              <li><a href="index.html#new">New releases</a></li>
+              <li><a href="shop.html">Tất cả sách</a></li>
+              <li><a href="index.html#new">Sách mới nhập</a></li>
               <li><a href="shop.html?picks=1">Staff picks</a></li>
               <li><a href="shop.html?genre=kids">Children&rsquo;s books</a></li>
-              <li><a href="shop.html?stock=1">In stock today</a></li>
+              <li><a href="shop.html?stock=1">Còn sách</a></li>
             </ul>
           </div>
           <div class="footer-col">
-            <h2>The shop</h2>
+            <h2>Thư viện</h2>
             <ul class="footer-links">
-              <li><a href="index.html#events">Events</a></li>
-              <li><a href="index.html#book-club">Book club</a></li>
-              <li><a href="index.html#newsletter">The Friday Letter</a></li>
-              <li><a href="index.html#visit">Opening hours</a></li>
+              <li><a href="index.html#events">Tin tức & Sự kiện</a></li>
+              <li><a href="index.html#book-club">Câu lạc bộ đọc sách</a></li>
+              <li><a href="index.html#newsletter">Bản tin thư viện</a></li>
+              <li><a href="index.html#visit">Giờ mở cửa</a></li>
             </ul>
           </div>
           <div class="footer-col">
-            <h2>Find us</h2>
+            <h2>Địa chỉ</h2>
             <address class="footer-address">
-              14 Wren Street, Millbrook<br>
+              Thư viện trường<br>
               <a href="tel:+15550142270">(555) 014-2270</a><br>
               <a href="mailto:hello@example.com">hello@example.com</a><br>
-              Mon&ndash;Sat 9am&ndash;7pm, Sun 11am&ndash;5pm
+              Thứ Hai – Thứ Sáu: 7:00 – 17:00
             </address>
           </div>
         </div>
         <div class="footer-bottom">
-          <p class="m-0">&copy; <span data-year>2026</span> Folio &amp; Fern Booksellers. All rights reserved.</p>
-          <p class="m-0">Template by <a href="https://uicookies.com/">uiCookies</a></p>
+          <p class="m-0">&copy; <span data-year>2026</span> Thư viện trường. Bản quyền thuộc thư viện.</p>
+          <p class="m-0">Thiết kế mẫu: <a href="https://uicookies.com/">uiCookies</a></p>
         </div>
       </div>
     </div>
   </footer>
 
   <!-- ============================ BASKET DRAWER ============================ -->
-  <div class="offcanvas offcanvas-end cart-drawer" tabindex="-1" id="cart" aria-labelledby="cart-title">
+  <div class="offcanvas offcanvas-end cart-drawer" tabindex="-1" id="cart" aria-labelledtác giả="cart-title">
     <div class="offcanvas-header">
-      <h2 class="offcanvas-title" id="cart-title" tabindex="-1">Your basket <span data-cart-heading-count></span></h2>
+      <h2 class="offcanvas-title" id="cart-title" tabindex="-1">Sách muốn mượn <span data-cart-heading-count></span></h2>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close basket"></button>
     </div>
     <div class="cart-ship">
@@ -296,23 +296,23 @@
           <path d="M60 58c-.3 9 1.2 17 5 24" fill="none" stroke="#4e6245" stroke-width="2" stroke-linecap="round"/>
           <g fill="#93a687"><ellipse cx="56" cy="66" rx="5" ry="2" transform="rotate(-30 56 66)"/><ellipse cx="66" cy="63" rx="5" ry="2" transform="rotate(25 66 63)"/><ellipse cx="57" cy="74" rx="4.6" ry="1.9" transform="rotate(-25 57 74)"/><ellipse cx="67.5" cy="72" rx="4.4" ry="1.8" transform="rotate(30 67.5 72)"/></g>
         </svg>
-        <h3>Your basket is empty</h3>
-        <p>Staff picks are a good place to start.</p>
-        <a class="btn btn-primary" href="shop.html?picks=1">Browse staff picks</a>
+        <h3>Sách muốn mượn is empty</h3>
+        <p>Hãy bắt đầu từ gợi ý của thủ thư.</p>
+        <a class="btn btn-primary" href="shop.html?picks=1">Xem tài liệu staff picks</a>
       </div>
     </div>
     <div class="cart-footer" data-cart-footer hidden>
-      <dl class="cart-total"><dt>Subtotal</dt><dd data-cart-subtotal>$0.00</dd></dl>
-      <p class="small mb-3">Delivery and tax are worked out at checkout. Collecting from Wren Street is always free.</p>
-      <button type="button" class="btn btn-primary btn-lg w-100" data-checkout>Checkout</button>
-      <p class="cart-note" data-checkout-note hidden role="status">Checkout is not connected in this template. Link this button to your shop platform or payment provider to take orders.</p>
+      <dl class="cart-total"><dt>Tổng số sách</dt><dd data-cart-subtotal>$0.00</dd></dl>
+      <p class="small mb-3">Danh sách lưu các sách bạn muốn gửi yêu cầu mượn.</p>
+      <button type="button" class="btn btn-primary btn-lg w-100" data-checkout>Gửi yêu cầu mượn</button>
+      <p class="cart-note" data-checkout-note hidden role="status">Gửi yêu cầu mượn is not connected in this template. Link this button to your shop platform or payment provider to take orders.</p>
     </div>
   </div>
 
   <!-- Visual toast (screen readers get the live region below instead) -->
   <div class="toast-lite" data-toast aria-hidden="true">
     <div class="toast-cover" data-toast-cover></div>
-    <div class="toast-text"><em>Added to basket</em><strong data-toast-title></strong><span data-toast-format></span></div>
+    <div class="toast-text"><em>Đã thêm vào danh sách</em><strong data-toast-title></strong><span data-toast-format></span></div>
     <button type="button" tabindex="-1" data-toast-open>View</button>
   </div>
   <div class="visually-hidden" aria-live="polite" data-live></div>
