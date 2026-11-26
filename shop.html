@@ -177,8 +177,8 @@
               <select class="form-select" id="sort" data-shop-sort>
                 <option value="featured">Nổi bật</option>
                 <option value="newest">Mới nhập</option>
-                <option value="price-asc">Giá, low to high</option>
-                <option value="price-desc">Giá, high to low</option>
+                <option value="price-asc">Tên sách A–Z</option>
+                <option value="price-desc">Tên sách Z–A</option>
                 <option value="title">Tên sách A–Z</option>
                 <option value="rating">Đánh giá cao</option>
               </select>
@@ -202,7 +202,7 @@
             <p>Thử thay đổi bộ lọc hoặc liên hệ thủ thư để được hỗ trợ.</p>
             <button type="button" class="btn btn-primary" data-clear-filters>Xóa bộ lọc</button>
           </div>
-          <noscript><p class="shop-empty">The catalogue needs JavaScript to show and filter books. Liên hệ thủ thư and we will check the shelves for you.</p></noscript>
+          <noscript><p class="shop-empty">Danh mục cần JavaScript để hiển thị và lọc. Vui lòng liên hệ thủ thư nếu cần hỗ trợ.</p></noscript>
         </div>
       </div>
     </div>
@@ -245,8 +245,8 @@
             <ul class="footer-links">
               <li><a href="shop.html">Tất cả sách</a></li>
               <li><a href="index.html#new">Sách mới nhập</a></li>
-              <li><a href="shop.html?picks=1">Staff picks</a></li>
-              <li><a href="shop.html?genre=kids">Children&rsquo;s books</a></li>
+              <li><a href="shop.html?picks=1">Thủ thư giới thiệu</a></li>
+              <li><a href="shop.html?genre=kids">Sách thiếu nhi</a></li>
               <li><a href="shop.html?stock=1">Còn sách</a></li>
             </ul>
           </div>
@@ -271,7 +271,7 @@
         </div>
         <div class="footer-bottom">
           <p class="m-0">&copy; <span data-year>2026</span> Thư viện trường. Bản quyền thuộc thư viện.</p>
-          <p class="m-0">Thiết kế mẫu: <a href="https://uicookies.com/">uiCookies</a></p>
+          <p class="m-0">Thiết kế mẫu: <a href="https://uicookies.com/">Folio template</a></p>
         </div>
       </div>
     </div>
@@ -281,14 +281,14 @@
   <div class="offcanvas offcanvas-end cart-drawer" tabindex="-1" id="cart" aria-labelledtác giả="cart-title">
     <div class="offcanvas-header">
       <h2 class="offcanvas-title" id="cart-title" tabindex="-1">Sách muốn mượn <span data-cart-heading-count></span></h2>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close basket"></button>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close danh sách muốn mượn"></button>
     </div>
     <div class="cart-ship">
-      <p data-ship-msg>You are <strong>$35.00</strong> away from free delivery.</p>
+      <p data-ship-msg>Bạn còn <strong>$35.00</strong> </p>
       <div class="ship-track" aria-hidden="true"><span data-ship-bar></span></div>
     </div>
     <div class="offcanvas-body">
-      <ul class="cart-lines" data-cart-items aria-label="Books in your basket"></ul>
+      <ul class="cart-lines" data-cart-items aria-label="Books in your danh sách muốn mượn"></ul>
       <div class="cart-empty" data-cart-empty>
         <svg viewBox="0 0 120 110" aria-hidden="true">
           <path d="M22 38h76l-6 62H28Z" fill="#ede3d0" stroke="#6b5d52" stroke-width="2" stroke-linejoin="round"/>
@@ -296,9 +296,9 @@
           <path d="M60 58c-.3 9 1.2 17 5 24" fill="none" stroke="#4e6245" stroke-width="2" stroke-linecap="round"/>
           <g fill="#93a687"><ellipse cx="56" cy="66" rx="5" ry="2" transform="rotate(-30 56 66)"/><ellipse cx="66" cy="63" rx="5" ry="2" transform="rotate(25 66 63)"/><ellipse cx="57" cy="74" rx="4.6" ry="1.9" transform="rotate(-25 57 74)"/><ellipse cx="67.5" cy="72" rx="4.4" ry="1.8" transform="rotate(30 67.5 72)"/></g>
         </svg>
-        <h3>Sách muốn mượn is empty</h3>
+        <h3>Danh sách sách muốn mượn đang trống</h3>
         <p>Hãy bắt đầu từ gợi ý của thủ thư.</p>
-        <a class="btn btn-primary" href="shop.html?picks=1">Xem tài liệu staff picks</a>
+        <a class="btn btn-primary" href="shop.html?picks=1">Xem sách thủ thư giới thiệu</a>
       </div>
     </div>
     <div class="cart-footer" data-cart-footer hidden>
@@ -313,7 +313,7 @@
   <div class="toast-lite" data-toast aria-hidden="true">
     <div class="toast-cover" data-toast-cover></div>
     <div class="toast-text"><em>Đã thêm vào danh sách</em><strong data-toast-title></strong><span data-toast-format></span></div>
-    <button type="button" tabindex="-1" data-toast-open>View</button>
+    <button type="button" tabindex="-1" data-toast-open>Xem</button>
   </div>
   <div class="visually-hidden" aria-live="polite" data-live></div>
 
