@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <script>document.documentElement.classList.add('js')</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5eee1">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wdth,wght@75..100,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css"><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Chuyển đến nội dung chính</a>
+<header class="auth-topbar"><div class="container"><a class="auth-brand" href="index.html"><span class="auth-brand-mark" aria-hidden="true">T</span><span>Thư viện trường</span></a></div></header>
+<main id="main" class="auth-shell"><div class="container d-flex justify-content-center">
+
+<section class="auth-card" aria-labelledby="auth-title">
+  <p class="auth-kicker">Cổng bạn đọc</p><h1 class="auth-title" id="auth-title">Đăng nhập</h1>
+  <p class="auth-muted mb-4">Đăng nhập để quản lý thông tin và các yêu cầu mượn sách của bạn.</p>
+  <div data-login-message hidden role="status" aria-live="polite" class="auth-note mb-3"></div>
+  <form data-login-form class="auth-form needs-validation" novalidate>
+    <div class="mb-3"><label for="login-email" class="form-label">Email trường</label><input class="form-control" id="login-email" type="email" autocomplete="username" placeholder="tenban@truong.edu.vn" required><div class="invalid-feedback">Vui lòng nhập email hợp lệ.</div></div>
+    <div class="mb-3"><label for="login-password" class="form-label">Mật khẩu</label><div class="auth-password-wrap"><input class="form-control" id="login-password" type="password" autocomplete="current-password" required><button class="auth-toggle" type="button" data-password-toggle="login-password">Hiện</button></div><div class="invalid-feedback">Vui lòng nhập mật khẩu.</div></div>
+    <div class="auth-links mb-4"><a href="quen-mat-khau.html">Quên mật khẩu?</a><span class="text-soft">Chỉ dành cho thành viên trường</span></div>
+    <button class="btn btn-primary w-100" type="submit">Đăng nhập</button>
+  </form>
+  <div class="auth-divider">Bạn chưa có tài khoản?</div><a class="btn btn-outline-secondary w-100" href="dang-ky.html">Đăng ký bạn đọc</a>
+  <p class="small auth-muted mt-3 mb-0">Đăng nhập Google và xác thực tài khoản sẽ được tích hợp khi có backend.</p>
+</section></div></main><footer class="auth-footer"><div class="container"><a href="index.html">← Quay về trang chủ</a><p class="mb-0 mt-2">© <span data-year>2026</span> Thư viện trường</p></div></footer><script src="js/vendor/bootstrap.bundle.min.js"></script><script src="js/auth.js"></script></body></html>
